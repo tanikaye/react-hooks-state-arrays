@@ -3,6 +3,7 @@ import { spicyFoods, getNewSpicyFood } from "../data";
 
 function SpicyFoodList() {
   const [foods, setFoods] = useState(spicyFoods);
+  console.log(foods)
 
   function handleAddFood() {
     const newFood = getNewSpicyFood();
